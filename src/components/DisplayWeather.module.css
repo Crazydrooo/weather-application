@@ -1,0 +1,70 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 25rem;
+    height: 35rem;
+   
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    
+    
+}
+
+.container{
+    background-image: url(../../public/clearSky.jpg);
+    object-fit: cover; 
+    background-size: 100% 100%; 
+    text-align: center;
+    padding-top: 2rem;
+}
+.message{
+    font-size: larger;
+}
+
+
+.logo{
+    height: 3rem;
+    width: 2rem;
+}
+
+.icon_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    gap:15rem;
+
+}
+
+
+.temp{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.name_temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+.imagee{
+    color: white;
+}
